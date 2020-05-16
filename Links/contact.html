@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
-    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Matias Daldi</a>
+        <a class="navbar-brand" href="../index.html">Matias Daldi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="Links/portfolio.html">Portfolio</a>
-            <a class="nav-link" href="Links/contact.html">Contact Me</a>
+            <a class="nav-link" href="../index.html">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact Me</a>
           </ul>
         </div>
     </nav>
@@ -29,13 +29,24 @@
           <div class="col-lg-8">
             <div class="card">
               <div class="card-header">
-                <strong>About Me</strong>
+                <strong>Contact Me</strong>
               </div>
               <div class="card-body">
-                <img id="meImg" src="CSS/unnamed.jpg" alt="https://placekitten.com/200/200">
-                <p id="meInfo" class="card-text">Hello, my name is Matias Daldi. I was originally born in Argentina and moved to Miami in 2001. I've now been in living in Orlando for roughly two years and love it way more than Miami.</p>
-                <p id="meInfo" class="card-text">In my free time I'm usually either playing soccer, video games, or trying to find a new hole in the wall to eat at. I love to travel and usually take two to three vacations a year so I'm rarely in one spot for too long.</p>
-                <p id="meInfo" class="card-text">I signed up for this course to try to gain some freedom in my work and not be constrained to the service industry, hopefully making traveling a little easier. I've attempted to learn the material myself but definitely need a helping hand. </p>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Subject</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
               </div>
             </div>
           </div>
