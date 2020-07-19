@@ -1,53 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/styles.css">
+	<title>Matias Daldi Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Matias Daldi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="Links/portfolio.html">Portfolio</a>
-            <a class="nav-link" href="Links/contact.html">Contact Me</a>
-          </ul>
-        </div>
-    </nav>
-    <main>
-      <section class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-lg-8">
-            <div class="card">
-              <div class="card-header">
-                <strong>About Me</strong>
-              </div>
-              <div class="card-body">
-                <img id="meImg" src="CSS/unnamed.jpg" alt="https://placekitten.com/200/200">
-                <p id="meInfo" class="card-text">Hello, my name is Matias Daldi. I was originally born in Argentina and moved to Miami in 2001. I've now been in living in Orlando for roughly two years and love it way more than Miami.</p>
-                <p id="meInfo" class="card-text">In my free time I'm usually either playing soccer, video games, or trying to find a new hole in the wall to eat at. I love to travel and usually take two to three vacations a year so I'm rarely in one spot for too long.</p>
-                <p id="meInfo" class="card-text">I signed up for this course to try to gain some freedom in my work and not be constrained to the service industry, hopefully making traveling a little easier. I've attempted to learn the material myself but definitely need a helping hand. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </section>
-    </main>
-    <footer>
-        <h5>&copy;Matias Daldi</h5>
-    </footer>
+
+<body class="is-preload">
+
+	<div id="page-wrapper">
+
+		<section id="banner">
+			<div class="inner">
+				<div class="logo"><span class="icon fa-user"></span></div>
+				<h2>Matias Daldi</h2>
+				<p>Welcome To My Portfolio</p>
+			</div>
+		</section>
+
+		<section id="wrapper">
+
+			<section id="one" class="wrapper spotlight style1">
+				<div class="inner">
+					<a href="#" class="image"><img src="images/unnamed.jpg" alt="" /></a>
+					<div class="content">
+						<h2 class="major">About Me</h2>
+						<p>Hello, my name is Matias Daldi. I was originally born in Argentina and
+							moved to Miami in 2001. I am now located in Orlando and have been living here for two years.
+							I am an aspiring full stack developer always looking to expand my knowledge and never afraid
+							of a challenge. In my work I strive to always challenge myself while exceeding expectations
+							and learning along the way.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="two" class="wrapper alt style1">
+				<div class="inner">
+					<h2 class="major">Projects</h2>
+					<section class="features">
+						<article>
+							<a href="http://arcane-waters-56136.herokuapp.com/" class="image"><img
+									src="images/mother_truckers.png" alt="" /></a>
+							<h3 class="major">Mother Truckers</h3>
+							<p>A website used to link food truck owners and food truck lovers by allowing truck owners
+								to post when and where they'll be at a location using the MapQuest API to place them on
+								a map. Application also has a live chat feature so users can talk to each other while on
+								the site.</p>
+							<a href="https://github.com/MatiasDaldi44/Mother-Trucker" class="special">See The Code</a>
+						</article>
+						<article>
+							<a href="https://stark-tundra-60024.herokuapp.com/" class="image"><img
+									src="images/note_taker.png" alt="" /></a>
+							<h3 class="major">Note Taker Application</h3>
+							<p>An application that can be used to write, save, and delete notes using Express.</p>
+							<a href="https://github.com/MatiasDaldi44/Note-Taker" class="special">See The Code</a>
+						</article>
+						<article>
+							<a href="https://matiasdaldi44.github.io/Five-of-Five/" class="image"><img
+									src="images/fiveoffive.png" alt="" /></a>
+							<h3 class="major">Five of Five</h3>
+							<p>An app that allows the user to look up the name of any city and be returned with the five
+								cheapest hotels in that area, as well as the location presented on a map. In the future
+								support for restaurant search will be added.</p>
+							<a href="https://github.com/MatiasDaldi44/Five-of-Five" class="special">See The Code</a>
+						</article>
+						<article>
+							<a href="https://matiasdaldi44.github.io/Weather-Dashboard/" class="image"><img
+									src="images/weather_dashboard.png" alt="" /></a>
+							<h3 class="major">Weather Dashboard</h3>
+							<p>A website that returns the user's search location with the current days
+								weather, as well as the forecast of the next five days. Uses local storage to save all
+								of the data.</p>
+							<a href="https://github.com/MatiasDaldi44/Weather-Dashboard" class="special">See The
+								Code</a>
+						</article>
+					</section>
+				</div>
+			</section>
+		</section>
+
+		<section id="footer">
+			<div class="inner">
+				<h2 class="major">Contact Me</h2>
+				<ul class="contact">
+					<li class="icon solid fa-home">
+						7931 Shoals Drive<br />
+						Orlando, FL 32817
+					</li>
+					<li class="icon solid fa-phone">(954) 290-9419</li>
+					<li class="icon solid fa-envelope"><a href="mailto:matiasdaldi@gmail.com">matiasdaldi@gmail.com</a>
+					</li>
+					<li class="icon brands fa-github"><a href="#">https://github.com/MatiasDaldi44</a></li>
+					<li class="icon brands fa-linkedin"><a href="index.html">linkedin coming soon</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </html>
